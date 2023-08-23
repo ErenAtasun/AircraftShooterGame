@@ -43,5 +43,19 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(cooldown);
         isShooting = false;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyBullet"))
+        {
+            Debug.Log("hit");
+            collision.gameObject.SetActive(false);
+            TakeDamage();
+        }
+    }
+
+    private void TakeDamage()
+    {
+        
+    }
 
 }

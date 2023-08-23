@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class DestroyOnAnimationEnd : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    public float delay;
+
     void Start()
     {
-        
+        Destroy(gameObject, GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length + delay);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
