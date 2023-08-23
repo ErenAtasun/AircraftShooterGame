@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9080046720781900527}
   - component: {fileID: 2606713556192470304}
   - component: {fileID: 8400771440297887170}
+  - component: {fileID: 3042026154756207085}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -138,3 +139,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5674926, y: 0.2513144}
   m_EdgeRadius: 0
+--- !u!114 &3042026154756207085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164433263410024693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5b0110a48cec24cab245372e3bd499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5633516857732650466, guid: fcf53f9c453b8a3448846d0a23709a17, type: 3}
