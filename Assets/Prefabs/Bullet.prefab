@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3066318500219939736}
   - component: {fileID: 2257241728815803731}
   - component: {fileID: 1681167282742069880}
-  - component: {fileID: -1531447434965107328}
+  - component: {fileID: 7081952454311867587}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 871a21f8dcd9ee24f8a978c599c13167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-1531447434965107328
+--- !u!114 &7081952454311867587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5633516857732650466}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc3a94e6ccc33e4a855daaa9f0dd199, type: 3}
+  m_Script: {fileID: 11500000, guid: 30e73f5a5d43ddd4288fbf49b14526c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 2
+  bulletDeactivatePos: 10
