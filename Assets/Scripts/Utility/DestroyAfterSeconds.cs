@@ -9,12 +9,15 @@ public class DestroyAfterSeconds : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, seconds);
+        //Destroy(gameObject, seconds);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.y > 7f)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }
