@@ -154,6 +154,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5633516857732650466, guid: fcf53f9c453b8a3448846d0a23709a17, type: 3}
   objectPool: {fileID: 6779539271487464093}
+  shipStats:
+    maxHealth: 3
+    currentHealth: 0
+    maxLifes: 3
+    currentLifes: 3
+    shipSpeed: 3
+    fireRate: 0.5
 --- !u!114 &6779539271487464093
 MonoBehaviour:
   m_ObjectHideFlags: 0
