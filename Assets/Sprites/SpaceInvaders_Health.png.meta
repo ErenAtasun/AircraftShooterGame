@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpaceInvaders_Health_0
+      name: Healt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_Health_1
+      name: Healt_1
       rect:
         serializedVersion: 2
         x: 0
@@ -171,7 +171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_Health_2
+      name: Healt_2
       rect:
         serializedVersion: 2
         x: 0
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_Health_3
+      name: Healt_3
       rect:
         serializedVersion: 2
         x: 0
@@ -213,7 +213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_Health_4
+      name: Healt_4
       rect:
         serializedVersion: 2
         x: 0
@@ -234,7 +234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceInvaders_Health_5
+      name: Healt_5
       rect:
         serializedVersion: 2
         x: 0
@@ -265,12 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpaceInvaders_Health_0: 696661951
-      SpaceInvaders_Health_1: 821864160
-      SpaceInvaders_Health_2: 35628859
-      SpaceInvaders_Health_3: 1841832835
-      SpaceInvaders_Health_4: -1448845903
-      SpaceInvaders_Health_5: 1364153150
+      Healt_0: 696661951
+      Healt_1: 821864160
+      Healt_2: 35628859
+      Healt_3: 1841832835
+      Healt_4: -1448845903
+      Healt_5: 1364153150
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
