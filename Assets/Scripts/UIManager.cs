@@ -9,7 +9,7 @@ public class UIManager : MonoBehaviour
 {
 
     private static UIManager instance;
-    public TextMeshProUGUI scoreTExt;
+    public TextMeshProUGUI scoreText;
     private int score;
     public TextMeshProUGUI highscoreText;
     private int highscore;
@@ -37,16 +37,24 @@ public class UIManager : MonoBehaviour
 
     public static void UpdateLives (int l)
     {
-
+        foreach(Image i in instance.lifeSprites)
+        {
+            i.color = instance.inactive;
+        }
+        for (int i = 0; i < l; i++)
+        {
+            instance.lifeSprites[i].color = instance.active;
+        }
     }
 
     public static void UpdateHealthBar (int h)
     {
-
+        instance.healthBar.sprite = instance.healthBars[h];
     }
-    public static void UpdateScore()
+    public static void UpdateScore(int s)
     {
-        
+        instance.score += s;
+        instance.scoreText.text = instance.score.ToString("000,000");
     }
     public static void UpdateHighScore()
     {
@@ -54,11 +62,12 @@ public class UIManager : MonoBehaviour
     }
     public static void UpdateWave()
     {
-
+            instance.wave++;
+            instance.waveText.text = instance.wave.ToString();
     }
     public static void UpdateCoins()
     {
-
+        instance.coinText.text = Inventory.currentCoins.ToString();
     }
 }
 
